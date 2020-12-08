@@ -1,0 +1,12 @@
+{
+  "name": "obs-spectralizer",
+  "version": "1.2",
+  "description": "Audio visualization for obs-studio using fftw, based on cli-visualizer.",
+  "scripts": {
+    "build": "makepkg -f",
+    "verify": "namcap PKGBUILD"
+  },
+  "repository": "https://github.com/univrsal/spectralizer",
+  "author": "univrsal",
+  "license": "GPL-2.0"
+}
